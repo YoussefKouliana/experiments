@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .todolist {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+  
+  li span {
+    margin-right: 20px;
+  }
+  
+  li button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
